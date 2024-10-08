@@ -4,8 +4,5 @@ before_script:
   - apt-get update -qq && apt-get install -y rsync
 
 script:
-  - |
-    if [ ! -d "public" ]; then
-      mkdir public
-    fi
+  - if [ ! -d "public" ]; then mkdir public; fi
   - rsync -av --delete . public/
