@@ -1,8 +1,9 @@
 image: ruby:3.2
 
 before_script:
-  - apt-get update -qq && apt-get install -y rsync
+  - apt-get update -qq
+  - apt-get install -y rsync
 
 script:
-  - if [ ! -d "public" ]; then mkdir public; fi
-  - rsync -av --delete . public/
+  - mkdir -p public
+  - rsync -av --delete *.html *.css *.js public/
