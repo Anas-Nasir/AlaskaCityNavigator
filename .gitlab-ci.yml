@@ -4,6 +4,7 @@ before_script:
   - apt-get update -qq
   - apt-get install -y rsync
 
-script:
-  - mkdir -p public   
-  - rsync -av --delete *.html *.css *.js public/
+job_name:  # Replace with a descriptive job name
+  script:
+    - mkdir -p public || echo "Directory already exists"
+    - rsync -av --delete *.html *.css *.js public/
