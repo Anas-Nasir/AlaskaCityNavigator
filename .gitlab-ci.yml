@@ -1,10 +1,11 @@
 image: ruby:3.2
 
-pages:
-  script:
-    - apt-get update -qq && apt-get install -y rsync
-    - mkdir public
-    - rsync -av --exclude='public' ./ public/
-  artifacts:
-    paths:
-      - public
+before_script:
+  - apt-get update -qq && apt-get install -y rsync
+
+script:
+  - |
+    if [ ! -d "public" ]; then
+      mkdir public
+    fi
+  - rsync -av --delete . public/
