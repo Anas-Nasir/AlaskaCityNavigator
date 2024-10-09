@@ -1,9 +1,14 @@
 image: ruby:3.2
 
-before_script:
-  - apt-get update -qq
-  - apt-get install -y rsync
-
-script:
-  - mkdir -p public   
-  - rsync -av --delete *.html *.css *.js public/
+pages:
+  script: |
+    if test -f "index.html"; then
+      gem install jekyll
+      jekyll build -d public
+    else
+      echo "No index.html file found, this file is required."
+      exit
+    fi
+  artifacts:
+    paths:
+      - public
