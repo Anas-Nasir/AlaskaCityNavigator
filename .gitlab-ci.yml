@@ -5,6 +5,5 @@ before_script:
   - apt-get install -y rsync
 
 script:
-  - rm -rf public 
-  - mkdir public
-  - rsync -av --delete source_directory/*.html source_directory/*.css source_directory/*.js public/
+  - mkdir -p public 
+  - rsync -av --delete public/*.html public/*.css public/*.js public/
