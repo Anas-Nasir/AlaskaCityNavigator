@@ -5,5 +5,5 @@ before_script:
   - apt-get install -y rsync
 
 script:
-  - mkdir -p public || echo "Directory already exists"
-  - rsync -av --delete public/*.html public/*.css public/*.js ./
+  - [ ! -d public ] && mkdir public  
+  - rsync -av --delete public/*.html public/*.css public/*.js public/
