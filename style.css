@@ -1,0 +1,204 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 150%;
+}
+
+.inmain {
+    height: 1500px;
+}
+
+.table {
+    width: 80%;
+    max-width: 850px; 
+    margin: 20px auto; 
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.table th {
+    background-color: black; 
+    color: white; 
+    padding: 12px;
+    text-align: center; 
+}
+
+.table td {
+    padding: 12px;
+    text-align: center; 
+    border-bottom: 1px solid #ddd; 
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(odd) {
+    background-color: #ffffff; 
+}
+
+.table tr:hover {
+    background-color: inherit; 
+}
+
+.index {
+    background-image: url(Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.Anchorage {
+    background-image: url(Images/AnchorageBG.jpeg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Juneau {
+    background-image: url(Images/JuneauBG.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Sikta {
+    background-image: url(Images/SiktaBG.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Contact1 {
+    background-color: red;
+}
+
+header {
+    height: 100px;
+    text-align: center;   
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.345);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+main {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.Anchor, .Jun {
+    height: 1500px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.june {
+    position: relative;
+    right: 50px;
+    margin-left: 200px;
+}
+
+.Sik {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+}
+
+.Con {
+    height: 800px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p {
+    font-size: 24px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 100px;
+}
+
+.Contact {
+    flex: 100%;
+    order: 100%;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+.Contact input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.Contact button {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: whitesmoke;
+    border: 0;
+}
+
+.btn {
+    width: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    height: 50px;
+}
+
+.img {
+    margin-top: 100px;  
+}
+
+.anch, .Sikt {
+    margin-top: 100px;
+}
+
+.anch {
+    width: 700px;
+    height: 400px;
+}
+
+.Sikt {
+    width: 800px;
+    height: 400px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: black; 
+    color: #f1f1f1;
+    border-radius: 10px; 
+}
+
+.list {
+    display: flex;
+    text-align: left;
+}
