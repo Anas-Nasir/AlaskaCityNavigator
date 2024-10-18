@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded', function () {
         var email2 = document.getElementById('email2').value;
 
         if (firstName === "" || lastName === "") {
-            alert("First Name and Last Name are required.");
+            alert("First Name and Last Name are required!");
             return;
         }
 
         if (email1 !== email2) {
-            alert('Email addresses do not match.');
+            alert('Email addresses do not match!');
             return; 
         }
 
