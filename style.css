@@ -98,15 +98,16 @@ main {
 }
 
 #Anchor {
-    height: 1500px;
+    height: 2300px;
     text-align: center;
     background: rgba(255, 255, 255, 0.2);
+    
 }
 
 
 
 .Jun {
-    height: 1500px;
+    height: 2400px;
     text-align: center;
     background: rgba(255, 255, 255, 0.2);
 }
@@ -128,7 +129,7 @@ main {
 }
 
 .Con {
-    height: 800px;
+    height: 1300px;
     text-align: center;
     background: rgba(255, 255, 255, 0.2);
 }
@@ -215,12 +216,12 @@ nav a:hover {
     text-align: left;
 }
 .highlights {
-    background-color: #f0f8ff; /* Light blue background */
+    background-color: #f0f8ff; 
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin: 20px auto; /* Center the aside */
-    max-width: 800px; /* Set max width for the aside */
+    margin: 20px auto;
+    max-width: 800px; 
 }
 
 .highlights h2 {
@@ -267,5 +268,37 @@ nav a:hover {
 
 .highlight-link:hover {
     background-color: #004999; 
+}
+aside {
+    background-color: #f9f9f9; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px; 
+    text-align: center;
+    max-width: 800px; 
+    height: 800px;
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 20px;
+}
+
+.fact-card {
+    background-color: #ffffff; 
+    border: 1px solid #e1e1e1; 
+    border-radius: 6px; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    transition: transform 0.2s; 
+    width: 90%; 
+    max-width: 600px; 
+    height: 200px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size:20px;
+}
+.custom-aside {
+    height: 500px;
+
 }
 
