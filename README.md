@@ -9,10 +9,10 @@ Alaska City Navigator is an interactive web platform designed to explore the div
 **Interactive Web Form:** Users can submit inquiries or feedback through a functional web form, complete with email confirmation and validation.
 Responsive Design: The platform is designed to work seamlessly across various devices, ensuring easy navigation and accessibility.
 ## Technologies Used
-HTML5: Structuring the website content with semantic elements for improved SEO and accessibility.
-CSS3: Styling the site with custom layouts, hover effects, and responsive design principles to enhance user experience.
-JavaScript: Adding interactivity, including form validation and dynamic content updates.
-External CSS Stylesheet: Ensuring consistent design elements across pages, such as typography and page layout.
+**HTML5:** Structuring the website content with semantic elements for improved SEO and accessibility.
+**CSS3:** Styling the site with custom layouts, hover effects, and responsive design principles to enhance user experience.
+**JavaScript:** Adding interactivity, including form validation and dynamic content updates.
+**External CSS Stylesheet:** Ensuring consistent design elements across pages, such as typography and page layout.
 
 ## DEMO
 ![image](https://github.com/user-attachments/assets/eb8afdf8-7f04-4851-bf2a-0061175e0d0d)
