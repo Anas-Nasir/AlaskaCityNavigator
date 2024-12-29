@@ -5,7 +5,7 @@ Alaska City Navigator is an interactive web platform designed to explore the div
 
 ## Features
 **Explore Cities:** Learn about major cities, their population, economic information, and geographic location within the state of Alaska.
-**Dynamic City Information:** Each city page provides detailed information, including its classification (urban, suburban, or rural), economic status, and more.
+**Dynamic City Information:** Each city page provides detailed information, including its classification (urban, suburban, or rural),economic status,and more.
 **Interactive Web Form:** Users can submit inquiries or feedback through a functional web form, complete with email confirmation and validation.
 Responsive Design: The platform is designed to work seamlessly across various devices, ensuring easy navigation and accessibility.
 ## Technologies Used
