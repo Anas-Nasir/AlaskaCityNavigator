@@ -17,4 +17,4 @@ External CSS Stylesheet: Ensuring consistent design elements across pages, such 
 ## DEMO
 ![image](https://github.com/user-attachments/assets/eb8afdf8-7f04-4851-bf2a-0061175e0d0d)
 
-![image](https://github.com/user-attachments/assets/112837e9-f882-476f-a788-0441ed5c7d2a)
+
